@@ -7,7 +7,7 @@ const DrawerLayout = () => {
     <Drawer
     drawerContent={(props) => <CustomDrawer {...props} />}
     screenOptions={{
-      headerShown:false,
+      //headerShown:false,
       overlayColor:'rgba(0,0,0,0.4)',
       drawerActiveTintColor:'#4f46e5',
       drawerInactiveTintColor:'#6b7280',
